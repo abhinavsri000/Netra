@@ -5,6 +5,11 @@
     android:background="#000000"
     android:orientation="vertical">
 
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0px"
+        android:layout_weight="1" />
+
     <LinearLayout
         android:layout_width="fill_parent"
         android:layout_height="0px"
@@ -25,8 +30,8 @@
             android:orientation="vertical">
 
             <ImageView
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
                 android:layout_weight="1"
                 android:scaleType="fitCenter"
                 android:src="@drawable/messages" />
@@ -54,8 +59,8 @@
             android:orientation="vertical">
 
             <ImageView
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
                 android:layout_weight="1"
                 android:scaleType="fitCenter"
                 android:src="@drawable/calls" />
@@ -78,7 +83,9 @@
     <FrameLayout
         android:layout_width="fill_parent"
         android:layout_height="0px"
-        android:layout_weight="1" />
+        android:layout_weight="1" >
+
+    </FrameLayout>
 
     <LinearLayout
         android:layout_width="fill_parent"
@@ -100,8 +107,8 @@
             android:orientation="vertical">
 
             <ImageView
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
                 android:layout_weight="1"
                 android:scaleType="fitCenter"
                 android:src="@drawable/contacts" />
@@ -129,8 +136,8 @@
             android:orientation="vertical">
 
             <ImageView
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
                 android:layout_weight="1"
                 android:scaleType="fitCenter"
                 android:src="@drawable/player" />
@@ -175,8 +182,8 @@
             android:orientation="vertical">
 
             <ImageView
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
                 android:layout_weight="1"
                 android:scaleType="fitCenter"
                 android:src="@drawable/browser" />
@@ -204,8 +211,8 @@
             android:orientation="vertical">
 
             <ImageView
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
                 android:layout_weight="1"
                 android:scaleType="fitCenter"
                 android:src="@drawable/alarms" />
@@ -250,8 +257,8 @@
             android:orientation="vertical">
 
             <ImageView
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
                 android:layout_weight="1"
                 android:scaleType="fitCenter"
                 android:src="@drawable/voicerecorder" />
@@ -279,8 +286,8 @@
             android:orientation="vertical">
 
             <ImageView
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
                 android:layout_weight="1"
                 android:scaleType="fitCenter"
                 android:src="@drawable/applications" />
@@ -325,8 +332,8 @@
             android:orientation="vertical">
 
             <ImageView
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
                 android:layout_weight="1"
                 android:scaleType="fitCenter"
                 android:src="@drawable/settings" />
@@ -354,8 +361,8 @@
             android:orientation="vertical">
 
             <ImageView
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
                 android:layout_weight="1"
                 android:scaleType="fitCenter"
                 android:src="@drawable/status" />
