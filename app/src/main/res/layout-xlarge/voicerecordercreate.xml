@@ -6,7 +6,7 @@
         <FrameLayout android:layout_width="0px" android:layout_height="fill_parent" android:layout_weight="2"/>
 		<LinearLayout android:layout_width="0px" android:layout_height="fill_parent" android:layout_weight="3" android:orientation="vertical" android:layout_gravity="center" android:gravity="center">
 			<ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1" android:scaleType="fitCenter" android:src="@drawable/voicerecordercreate"/>
-			<TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:gravity="center" android:textColor="#FFFFFF" android:id="@+id/record" android:text="@string/layoutVoiceRecorderCreateCreate" android:textSize="20sp"/>
+			<TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:gravity="center" android:textColor="#000000" android:id="@+id/record" android:text="@string/layoutVoiceRecorderCreateCreate" android:textSize="20sp"/>
         </LinearLayout>
         <FrameLayout android:layout_width="0px" android:layout_height="fill_parent" android:layout_weight="2"/>
     </LinearLayout>
@@ -17,7 +17,7 @@
         <FrameLayout android:layout_width="0px" android:layout_height="fill_parent" android:layout_weight="2"/>
         <LinearLayout android:layout_width="0px" android:layout_height="fill_parent" android:layout_weight="3" android:orientation="vertical" android:layout_gravity="center" android:gravity="center">
             <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1" android:scaleType="fitCenter" android:src="@drawable/goback"/>
-            <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:gravity="center" android:textColor="#FFFFFF"  android:id="@+id/goback" android:text="@string/backToPreviousMenu" android:textSize="20sp"/>
+            <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:gravity="center" android:textColor="#000000"  android:id="@+id/goback" android:text="@string/backToPreviousMenu" android:textSize="20sp"/>
 	    </LinearLayout>
         <FrameLayout android:layout_width="0px" android:layout_height="fill_parent" android:layout_weight="2"/>
 	</LinearLayout>
